@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithArray", "FunWithArray\FunWithArray.csproj", "{740C6AB6-204F-42DD-B63A-F5C4631334BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithMethods", "FunWithMethods\FunWithMethods.csproj", "{385F1173-6366-436E-B2A0-7B616051507B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithStructures", "FunWithStructures\FunWithStructures.csproj", "{33931CE6-AC5B-48EF-87D5-3B78EB19D4F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueAndReferenceTypes", "ValueAndReferenceTypes\ValueAndReferenceTypes.csproj", "{BCC731B6-BF63-45C8-9EF9-39877AD4329E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefTypeValTypeRarams", "RefTypeValTypeRarams\RefTypeValTypeRarams.csproj", "{65DD9352-CF47-4596-A3D7-BAD55148DC4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullableTypes", "NullableTypes\NullableTypes.csproj", "{D4CFAED7-F70E-4811-BDCB-D640D32B56BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithTuples", "FunWithTuples\FunWithTuples.csproj", "{8B8D3385-B18C-427D-923B-191503B84E4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{740C6AB6-204F-42DD-B63A-F5C4631334BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{740C6AB6-204F-42DD-B63A-F5C4631334BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{740C6AB6-204F-42DD-B63A-F5C4631334BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{740C6AB6-204F-42DD-B63A-F5C4631334BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{385F1173-6366-436E-B2A0-7B616051507B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{385F1173-6366-436E-B2A0-7B616051507B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{385F1173-6366-436E-B2A0-7B616051507B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{385F1173-6366-436E-B2A0-7B616051507B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33931CE6-AC5B-48EF-87D5-3B78EB19D4F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33931CE6-AC5B-48EF-87D5-3B78EB19D4F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33931CE6-AC5B-48EF-87D5-3B78EB19D4F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33931CE6-AC5B-48EF-87D5-3B78EB19D4F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC731B6-BF63-45C8-9EF9-39877AD4329E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC731B6-BF63-45C8-9EF9-39877AD4329E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC731B6-BF63-45C8-9EF9-39877AD4329E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC731B6-BF63-45C8-9EF9-39877AD4329E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65DD9352-CF47-4596-A3D7-BAD55148DC4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65DD9352-CF47-4596-A3D7-BAD55148DC4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65DD9352-CF47-4596-A3D7-BAD55148DC4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65DD9352-CF47-4596-A3D7-BAD55148DC4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4CFAED7-F70E-4811-BDCB-D640D32B56BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4CFAED7-F70E-4811-BDCB-D640D32B56BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4CFAED7-F70E-4811-BDCB-D640D32B56BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4CFAED7-F70E-4811-BDCB-D640D32B56BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B8D3385-B18C-427D-923B-191503B84E4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B8D3385-B18C-427D-923B-191503B84E4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B8D3385-B18C-427D-923B-191503B84E4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B8D3385-B18C-427D-923B-191503B84E4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
