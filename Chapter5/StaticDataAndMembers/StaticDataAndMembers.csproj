@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{56281E8B-12CB-4A61-B7A2-B24B408560E6}</ProjectGuid>
+    <ProjectGuid>{1B53E3E8-9851-4972-8647-41DE4FC9596A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SimpleClassExample</RootNamespace>
-    <AssemblyName>SimpleClassExample</AssemblyName>
+    <RootNamespace>StaticDataAndMembers</RootNamespace>
+    <AssemblyName>StaticDataAndMembers</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,10 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Car.cs" />
-    <Compile Include="Motorcycle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SavingAccount.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

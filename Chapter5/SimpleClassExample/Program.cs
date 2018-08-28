@@ -10,19 +10,8 @@ namespace SimpleClassExample
         {
             Console.WriteLine("***** Fun with Class Types *****\n");
 
-            //Invoking the default constructor
-            Car chuck = new Car();
-            //prints "Chuck is going 10MPH"
-            chuck.PrintState();
-
-            //Make a Car called Mary going 0MPH
-            Car mary = new Car("Mary");
-            mary.PrintState();
-
-            //Make a Car called Daisy ging 75MPH
-            Car daisy = new Car("Daisy", 75);
-            daisy.PrintState();
-
+            //Mak a Motorcycle
+            Motorcycle c = new Motorcycle(5);
         }
     }
 }

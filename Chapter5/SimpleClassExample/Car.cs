@@ -7,8 +7,8 @@ namespace SimpleClassExample
     class Car
     {
         //The 'state' of the Car
-        public string petName;
-        public int currSpeed;
+        private string petName;
+        private int currSpeed;
 
         //The functionality of the Car
         //Using the expression-bodied member syntax 
@@ -32,6 +32,5 @@ namespace SimpleClassExample
             petName = pn;
             currSpeed = cs;
         }
-
     }
 }
