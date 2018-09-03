@@ -28,12 +28,12 @@ namespace StaticDataAndMembers
             currInterestRate = 0.04;
         }
 
-        //Static members to get/set interest rate.
-        public static void SetInterestRate(double newRate) => currInterestRate = newRate;
-
-        public static double GetInterestRate()
+        //A static property.
+        public static double InterestRate
         {
-            return currInterestRate;
+            get => currInterestRate;
+            set => currInterestRate = value;
         }
+
     }
 }
