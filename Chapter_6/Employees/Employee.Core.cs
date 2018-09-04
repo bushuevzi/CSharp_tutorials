@@ -24,12 +24,13 @@ namespace Employees
         }
 
         //Methods
-        public void GiveBonus(float amount)
+        //Thiss method can now be "overridden" by a derived class
+        public virtual void GiveBonus(float amount)
         {
-            currPay += amount;
+            Pay += amount;
         }
         //Updated 
-        public void DisplayStats()
+        public virtual void DisplayStats()
         {
             Console.WriteLine($"Name: {Name}");
             Console.WriteLine($"ID: {ID}");
