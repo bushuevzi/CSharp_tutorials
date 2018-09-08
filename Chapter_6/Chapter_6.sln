@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicInheritance", "BasicIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employees", "Employees\Employees.csproj", "{7102E933-9A08-4B71-8308-AF10B121F9F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "funWithInharitance", "funWithInharitance\funWithInharitance.csproj", "{0A5999FC-8DB2-4EEE-8257-144F705DBBC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOverrides", "ObjectOverrides\ObjectOverrides.csproj", "{B3C40166-E0B2-4ABC-904E-F98AA13AE185}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{7102E933-9A08-4B71-8308-AF10B121F9F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7102E933-9A08-4B71-8308-AF10B121F9F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7102E933-9A08-4B71-8308-AF10B121F9F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A5999FC-8DB2-4EEE-8257-144F705DBBC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A5999FC-8DB2-4EEE-8257-144F705DBBC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A5999FC-8DB2-4EEE-8257-144F705DBBC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A5999FC-8DB2-4EEE-8257-144F705DBBC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3C40166-E0B2-4ABC-904E-F98AA13AE185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C40166-E0B2-4ABC-904E-F98AA13AE185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C40166-E0B2-4ABC-904E-F98AA13AE185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C40166-E0B2-4ABC-904E-F98AA13AE185}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7102E933-9A08-4B71-8308-AF10B121F9F8}</ProjectGuid>
+    <ProjectGuid>{B3C40166-E0B2-4ABC-904E-F98AA13AE185}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Employees</RootNamespace>
-    <AssemblyName>Employees</AssemblyName>
+    <RootNamespace>ObjectOverrides</RootNamespace>
+    <AssemblyName>ObjectOverrides</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,19 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BenefitPackage.cs" />
-    <Compile Include="Employee.Core.cs" />
-    <Compile Include="Employee.cs" />
-    <Compile Include="Hexagon.cs" />
-    <Compile Include="Manager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PTSalesPerson.cs" />
-    <Compile Include="SalesPerson.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Employers.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

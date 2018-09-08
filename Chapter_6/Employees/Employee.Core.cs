@@ -2,7 +2,7 @@
 
 namespace Employees
 {
-    partial class Employee
+    abstract partial class Employee
     {
         //Updated Constructors
         public Employee() { }
@@ -29,6 +29,7 @@ namespace Employees
         {
             Pay += amount;
         }
+
         //Updated 
         public virtual void DisplayStats()
         {
