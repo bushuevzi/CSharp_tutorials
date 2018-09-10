@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6BBB1E93-02E6-464B-BDA7-13C1D6DB1DBA}</ProjectGuid>
+    <ProjectGuid>{F6DFC375-9D40-43C2-84B3-7D7254A7B0C1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CustomEnumerator</RootNamespace>
-    <AssemblyName>CustomEnumerator</AssemblyName>
+    <RootNamespace>ComparableCar</RootNamespace>
+    <AssemblyName>ComparableCar</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Car.cs" />
-    <Compile Include="Garage.cs" />
     <Compile Include="PetNameComparer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
