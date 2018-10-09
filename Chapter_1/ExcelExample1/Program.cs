@@ -18,15 +18,15 @@ namespace ExcelExample1
             //данные для справочника
             List<PhonebookStruct> Phonebook = new List<PhonebookStruct>
             {
-                new PhonebookStruct{ObjName = "АЗС №44",
-                    Address = "Краснодарский край, г.Горячий ключ, 64 км + 400 м а/д Краснодар-Джубга слева",
-                    PhoneNumber = 8615934325},
-                new PhonebookStruct{ObjName = "АЗС №47",
-                    Address = "Краснодарский край, Тимашевский р-н, г.Тимашевск, ул. Гибридная, 3а",
-                    PhoneNumber = 8613090756},
-                new PhonebookStruct{ObjName = "АЗС №59",
-                    Address = "Краснодарский край, г. Сочи, Адлерский район, ул. Старонасыпная, 34/12",
-                    PhoneNumber = 8622400249},
+                new PhonebookStruct{ObjName = "Рабочий",
+                    Address = "Краснодарский край, г. Краснодар, ул. Ставропольская 1",
+                    PhoneNumber = 8611236547},
+                new PhonebookStruct{ObjName = "Менеджер",
+                    Address = "Краснодарский край, г. Краснодар, Игнатова 23",
+                    PhoneNumber = 8612358564},
+                new PhonebookStruct{ObjName = "Директор",
+                    Address = "Краснодарский край, г. Краснодар, Красная 159",
+                    PhoneNumber = 8613658445},
             };
 
             //создаем Документы xlsx
