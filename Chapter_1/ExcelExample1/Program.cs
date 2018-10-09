@@ -34,7 +34,7 @@ namespace ExcelExample1
             {
                 excelFile.Workbook.Properties.Author = "Zakhar Bushuev";
                 excelFile.Workbook.Properties.Title = "Phonebook";
-                excelFile.Workbook.Properties.Company = "ООО \"ЛУКОЙЛ ИНФОРМ\"";
+                excelFile.Workbook.Properties.Company = "ООО \"Компания рога и копыта\"";
 
                 //добавляем лист
                 ExcelWorksheet sheet = excelFile.Workbook.Worksheets.Add("Телефонный справочник");
