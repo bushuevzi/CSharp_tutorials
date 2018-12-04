@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections;
 
 namespace SimpleGeneric
 {
@@ -7,7 +8,6 @@ namespace SimpleGeneric
     {
         static void Main(string[] args)
         {
-            UseDictionary();
         }
 
         static void UseGenericList()
